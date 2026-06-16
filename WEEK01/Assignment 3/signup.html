@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaadi.com/signup </title>
+</head>
+<body>
+    
+    <h2>Create your profile : </h2>
+    <br>
+    <form>
+        <p><strong>Personal Details :</strong></p>
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="gender">Gender :</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="birthDate">Date of Birth :</label>
+        <input type="date" id="birthDate" name="birthDate" required>
+        <br><br>
+
+        <label for="age">Age :</label>
+        <input type="number" id="age" name="age" min="18" required>
+        <br><br>
+
+        <label for="address">Address :</label><br>
+        <textarea id="address" name="address" rows="3" required></textarea><br>
+        <br>
+
+        <label for="hobbies">Hobbies :</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="writing" name="hobbies" value="writing">
+        <label for="writing">Writing</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+        <br><br><br><br>
+
+        <p><strong>Contact Details :</strong></p>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="phone">Phone Number :</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>    
+
+        <button type="submit">Signup</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    
+</body>
+</html>
