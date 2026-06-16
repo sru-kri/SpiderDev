@@ -21,7 +21,7 @@
 
     <label for="dish">Select Dish:</label><br>
     <select id="dish" name="dish" required>
-        <option value="">Choose a dish</option>
+        <option value="" disabled selected>Choose a dish</option>
         <option value="spring_roll">Spring Roll - ₹120</option>
         <option value="paneer_tikka">Paneer Tikka - ₹180</option>
         <option value="tomato_soup">Tomato Soup - ₹120</option>
@@ -36,13 +36,19 @@
     <label for="qty">Quantity:</label><br>
     <input type="number" id="qty" name="quantity" min="1" value="1" required><br><br>
 
+    <label>Mode of Payment:</label><br>
 
-    <label>Payment Method:</label><br>
-    <input type="radio" name="payment" value="cash" required> Cash
-    <input type="radio" name="payment" value="upi"> UPI
-    <input type="radio" name="payment" value="card"> Card<br><br>
+    <input type="radio" id="cash" name="payment" value="cash" required>
+    <label for="cash">Cash</label>
 
-    <!-- Submit -->
+    <input type="radio" id="upi" name="payment" value="upi">
+    <label for="upi">UPI</label>
+
+    <input type="radio" id="card" name="payment" value="card">
+    <label for="card">Card</label>
+
+    <br><br>
+
     <button type="submit">Order</button>
 
 </form>
