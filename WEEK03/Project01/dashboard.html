@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard-Student Result Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+
+    <a href="dashboard.html">Dashboard</a>
+
+    <a href="index.html">Logout</a>
+
+</nav>
+
+    <h1 class="title">Welcome to Student Result Calculator</h1>
+    <div class="user-info">
+        <p><strong>Name:</strong> <span id="displayName"></span></p>
+        <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <h2>Enter Subject Details</h2>
+
+        <!-- Subject 1 -->
+        <div class="subject-row">
+            <input type="text" id="sub1Name" placeholder="Subject 1">
+            <input type="number" id="sub1" placeholder="Marks">
+<input type="number" id="sub1Credit" placeholder="Credits">
+        </div>
+
+        <!-- Subject 2 -->
+        <div class="subject-row">
+            <input type="text" id="sub2Name" placeholder="Subject 2">
+            <input type="number" id="sub2" placeholder="Marks">
+            <input type="number" id="sub2Credit" placeholder="Credits">
+        </div>
+
+        <!-- Subject 3 -->
+        <div class="subject-row">
+            <input type="text" id="sub3Name" placeholder="Subject 3">
+            <input type="number" id="sub3" placeholder="Marks">
+            <input type="number" id="sub3Credit" placeholder="Credits">
+        </div>
+
+        <!-- Subject 4 -->
+        <div class="subject-row">
+            <input type="text" id="sub4Name" placeholder="Subject 4">
+            <input type="number" id="sub4" placeholder="Marks">
+            <input type="number" id="sub4Credit" placeholder="Credits">
+        </div>
+
+        <!-- Subject 5 -->
+        <div class="subject-row">
+            <input type="text" id="sub5Name" placeholder="Subject 5">
+            <input type="number" id="sub5" placeholder="Marks">
+            <input type="number" id="sub5Credit" placeholder="Credits">
+        </div>
+
+        <!-- Subject 6 -->
+        <div class="subject-row">
+            <input type="text" id="sub6Name" placeholder="Subject 6">
+            <input type="number" id="sub6" placeholder="Marks">
+            <input type="number" id="sub6Credit" placeholder="Credits">
+        </div>
+
+        <button onclick="calculateResult()">Calculate Result</button>
+
+        <!-- Result -->
+        <div id="resultBox">
+            <h2>Result will appear here</h2>
+        </div>
+
+    </div>
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
+</body>
+</html>
